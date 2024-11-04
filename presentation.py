@@ -14,13 +14,13 @@ gen_end2end, sr = dreamvoice.genvc('samples/son_house_john.wav', prompt1)
 # Save the converted audio
 dreamvoice.save_audio('results/son_house_converted.wav', gen_end2end, sr)
 
-# # Provide the path to the content audio and generate the converted audio
-# gen_end2end, sr = dreamvoice.genvc('samples/witcher_pl.wav', prompt2)
-# # Save the converted audio
-# dreamvoice.save_audio('results/witcher_converted.wav', gen_end2end, sr)
+# Provide the path to the content audio and generate the converted audio
+gen_end2end, sr = dreamvoice.genvc('samples/witcher_pl.wav', prompt2)
+# Save the converted audio
+dreamvoice.save_audio('results/witcher_converted.wav', gen_end2end, sr)
 
-# # Provide the path to the content audio and generate the converted audio
-# gen_end2end, sr = dreamvoice.genvc('samples/sara_walker.wav', prompt3)
-# # Save the converted audio
-# dreamvoice.save_audio('results/sara_walker_converted.wav', gen_end2end, sr)
+# Provide the path to the content audio and generate the converted audio
+gen_end2end, sr = dreamvoice.genvc('samples/sara_walker.wav', prompt3)
+# Save the converted audio
+dreamvoice.save_audio('results/sara_walker_converted.wav', gen_end2end, sr)
 
